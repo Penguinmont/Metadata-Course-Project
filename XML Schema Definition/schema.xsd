@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="archaeologysite">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sanxingdui_ruins">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="year" type="xs:string"/>
+                            <xs:element name="area" type="xs:string"/>
+                            <xs:element name="site" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+
+                <xs:element name="figure">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="lifetime" type="xs:string"/>
+                            <xs:element name="homeplace" type="xs:string"/>
+                            <xs:element name="reputation" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+
+                <xs:element name="culturerelic">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="shape" type="xs:string"/>
+                            <xs:element name="character" type="xs:string"/>
+                            <xs:element name="excavateddate" type="xs:float"/>
+                            <xs:element name="excavatedplace" type="xs:string"/>
+                            <xs:element name="location" type="xs:string"/>
+                            <xs:element name="reputation" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>   
+</xs:schema>

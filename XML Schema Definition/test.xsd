@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://w3.org/2001/XMLSchema">
+<xs:element name="archaeologysite">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sanxingdui_ruins">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="year"/>
+              <xs:element type="xs:string" name="area"/>
+              <xs:element type="xs:string" name="site"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="figure" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="lifetime"/>
+              <xs:element type="xs:string" name="homeplace"/>
+              <xs:element type="xs:string" name="reputation"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="culturerelic" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="shape"/>
+              <xs:element type="xs:string" name="character"/>
+              <xs:element type="xs:float" name="excavateddate" minOccurs="0"/>
+              <xs:element type="xs:string" name="excavatedplace" minOccurs="0"/>
+              <xs:element type="xs:string" name="location" minOccurs="0"/>
+              <xs:element type="xs:string" name="reputation" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
