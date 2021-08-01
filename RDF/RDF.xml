@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archaeologysite>
+<sanxingdui_ruins>
+    <title>三星堆遗址被誉为20 世纪人类最伟大的考古发现之一 </title>
+    <year>5000 ~ 3000 years</year>
+    <area> 12 square kilometers </area>
+    <site> sichuan province guangyuan city </site>
+</sanxingdui_ruins>
+    
+<figure >
+    <name>冯汉骥</name>
+    <lifetime>1899-1977</lifetime>
+    <homeplace>hubei province yichang city</homeplace>
+    <reputation>著名考古学家、历史学家、民族学家，中国近代考古学开拓者之一，四川大学考古专业奠基</reputation>
+</figure>
+
+<figure >
+    <name>霍巍</name>
+    <lifetime>1957-now</lifetime>
+    <homeplace>chengdu province</homeplace>
+    <reputation>曾担任中国藏学研究所所长，中国文明研究中心客座研究员，边疆考古研究中心客座研究员。研究领域为藏族文化、藏传佛教和西藏考古研究</reputation>
+</figure>
+
+<culturerelic >
+    <name>青铜大立人</name>
+    <shape>人像高 1.8 米、通高 2.62 米，重约 180 公斤</shape>
+    <character>使用分段浇铸法铸造而成,距今已有 3000 多年历史的青铜器</character>
+    <excavateddate>1986</excavateddate>
+    <excavatedplace>三星堆遗址二号祭祀坑</excavatedplace>
+    <location>三星堆博物馆</location>
+    <reputation>世界铜像之王</reputation>
+</culturerelic>
+
+<culturerelic >
+    <name>商青铜神树</name>
+    <shape>Ⅰ号大型铜神树由底座、树和龙三部分组成，采用分段铸造法铸造，树干残高 359、通高 396厘米，树干顶部及龙身后段略有残缺</shape>
+    <character>商青铜神树共有8棵，其中修复最完整的一棵树被命名为Ⅰ号大型铜神树</character>
+    <excavateddate>1986</excavateddate>
+    <excavatedplace>三星堆遗址二号祭祀坑</excavatedplace>
+    <location>三星堆博物馆</location>
+    <reputation>摇钱树</reputation>
+</culturerelic>
+
+<culturerelic >
+    <name>三星堆金杖</name>
+    <shape>全长 1.42 米，直径 2.3 厘米，净重约 500 克</shape>
+    <character>金杖是已出土的中国同时期金器中体量最大的一件</character>
+    <excavateddate>1986</excavateddate>
+    <excavatedplace>三星堆遗址一号祭祀坑</excavatedplace>
+    <location>三星堆博物馆</location>
+</culturerelic>
+
+<culturerelic >
+    <name>青铜纵目面具</name>
+    <shape>宽 138 厘米，高 64.5 厘米，眼睛呈柱状向外凸</shape>
+    <character>一双雕有纹饰的耳朵向两侧充分展开，造型雄奇，威严四仪，为世界上年代最早、形体最大的青铜面具</character>
+</culturerelic>
+
+<culturerelic >
+    <name>三星堆出土玉边璋</name>
+    <shape>通长 54.5 厘米，呈刀形，两面满饰图案</shape>
+    <character>据研究所刻画为原始宗教的祭祀场面</character>
+    <excavateddate>1986</excavateddate>
+    <excavatedplace>三星堆遗址一号祭祀坑</excavatedplace>
+</culturerelic>
+
+<culturerelic >
+    <name>半张金面具</name>
+    <shape>它宽度约 23 厘米，高度约 28 厘米，重量大约为 280g</shape>
+    <character>黄金面具含金量约为 85%，含银量在 13%到 14%，还有其他杂质</character>
+    <excavateddate>2020.10</excavateddate>
+    <excavatedplace>三星堆遗址五号祭祀坑</excavatedplace>
+</culturerelic>
+</archaeologysite>
