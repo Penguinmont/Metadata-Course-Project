@@ -1,0 +1,124 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix person: <http://www.w3.org/ns/person#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+<https://en.wikipedia.org/wiki/Charles_Dickens>
+  a person:Person;
+  foaf:familyName "Dikens" ;
+  foaf:givenName "Carels" ;
+  foaf:gender "male";
+  schema:nationality "British" ;
+  schema:birthDate "1812" ;
+  schema:jobTitle "Writer" ;
+  schema:description "English novelist and draftsman, 1812-1870";
+  dc:creator "https://en.wikisource.org/wiki/A_Christmas_Carol_(Dickens)";
+  owl:sameAs "Charles_Dickens" , <http://id.loc.gov/authorities/names/n78087607> , <http://viaf.org/viaf/88666393> , <http://www.isni.org/isni/0000000121428469> .
+
+<https://en.wikisource.org/wiki/A_Christmas_Carol_(Dickens)>
+a <https://schema.org/Book>,
+  schema:description "novella by the English author Charles Dickens, first published in 1843"@en;
+  schema:description "1843 edition of Dickens's \"A Christmas Carol\""@en;
+  rdfs:label "A Christmas Carol"@en ;
+	schema:name "A Christmas Carol"@en , "圣诞颂歌"@zh ;
+  schema:author <http://viaf.org/viaf/88666393> ;
+  schema:publisher "Chapman & Hall";
+  schema:Illustrator "John Leech";
+  schema:inLanguage "en";
+  schema:about "novella";
+  schema:numberOfPages "+166"^^xsd:decimal;
+  schema:workTransaction <https://book.douban.com/subject/21324314/>, <https://book.douban.com/subject/30483687/>;
+  xsd:dateTime "1843-01-01T00:00:00Z" .
+
+<https://book.douban.com/subject/21324314/>
+a <https://schema.org/Book>,
+  schema:name "A Christmas Carol"@en , "圣诞颂歌"@zh ;
+  schema:author <http://viaf.org/viaf/88666393> ;
+  schema:translator "吴钧陶";
+  bibo:isbn "9787544735438";
+  schema:price "32.80¥";
+  schema:numberOfPages "+216"^^xsd:decimal ;
+  schema:inLanguage "zh";
+  schema:about "novella";
+  schema:datePublished "2019-3";
+  schema:publisher "译林出版社";
+  rdfs:label "字里行间图文馆"@zh ;
+
+<https://book.douban.com/subject/30483687/>
+a <https://schema.org/Book>,
+  schema:name "A Christmas Carol"@en , "圣诞颂歌"@zh ;
+  schema:author <http://viaf.org/viaf/88666393> ;
+  schema:translator "孟晓俊";
+  bibo:isbn "9787544775915";
+  schema:price "32.00¥";
+  schema:numberOfPages "+186"^^xsd:decimal ;
+  schema:inLanguage "zh";
+  schema:about "novella";
+  schema:datePublished "2019-3";
+  schema:publisher "译林出版社";
+  rdfs:label "有声双语经典"@zh ;
+
+<http://www.sudoc.fr/190892218/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas Carol  / Geraldine Dowd, réal.  ; Charles Dickens, aut. adapté  ; Andrew Blaney, mus.  ; Anton Lesser, Luisa D'Amone, Antonia Spicer,... [et al.], act. / [Londres] : Opus Arte" .
+
+<http://www.sudoc.fr/083340947/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "The annotated Christmas carol  : a Christmas carol in prose  / Charles Dickens  ; illustrated by John Leech  ; edited with an introduction, notes, and bibliography by Michael Patrick Hearn / New York : W.W. Norton , 2004" .
+
+<http://www.sudoc.fr/108883345/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas Carol  Disc Three,   / Geraldine Dowd, réal.  ; Charles Dickens, aut. adapté  ; Andrew Blaney, mus.  ; Anton Lesser, Luisa D'Amone, Antonia Spicer,... [et al.], act. / [s. l.] : Opus Arte [éd.] , cop. 2003" .
+
+<http://www.sudoc.fr/079279279/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol  : in many scenes and several songs  / from the novel by Charles Dickens  ; adapted by Neil Bartlett / London : Oberon books , 2003" .
+
+<http://www.sudoc.fr/168345358/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol  : the original manuscript  / by Charles Dickens  ; a facsimile of the manuscript in the Pierpont Morgan Library  ; with the illustrations of John Leech and the text from the first edition / New York, NY : Dover Pub. , c1971" .
+
+<http://www.sudoc.fr/164754830/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol and its adaptations  : a critical examination of Dickens's story and its productions on screen and television  / by Fred Guida  ; with a foreword by Edward Wagenknecht / Jefferson : McFarland , 2006" .
+
+<http://www.sudoc.fr/008901597/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "The lives and times of Ebenezer Scrooge  / Paul Davis / New Haven [etc.] : Yale university press , 1990" .
+
+<http://www.sudoc.fr/12283058X/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol  / english commentary and notes by P. Lestang / Marseille : Impr. Ferran et Cie , [s.d.]" .
+
+<http://www.sudoc.fr/074541218/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol  / Charles Dickens  ; introduction notes and activities by Brian Hodgkiss,... / Genoa : Cideb" .
+
+<http://www.sudoc.fr/136677940/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol  / Ch. Dickens  ; with an english commentary and notes by P. Lestang,... / Marseille : Ferran et Cie , 1926" .
+
+<http://www.sudoc.fr/051253755/id>
+  a bibo:Document ;
+  dc:subject <http://www.idref.fr/07455378X/id> ;
+  dc:bibliographicCitation "A Christmas carol in prose  / Charles Dickens  ; selected and ed. by Georges La Vieille,..  ; orig. drawings by John Leech / Paris : Hatier , 1958" .
+
+  
+	
+
