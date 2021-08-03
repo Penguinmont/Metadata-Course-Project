@@ -1,0 +1,200 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix person: <http://www.w3.org/ns/person#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix newstandards: <http://www.20191410.cn/metadata/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix cdwa:<http://www.getty.edu/research/publications/electronic_publications/cdwa/>.
+@prefix selfDefine:<http://www.metadata.cn/selfDefine>.
+
+
+<http://data.library.sh.cn/person/fenghanji>
+  a person:Person;
+  foaf:name "馮漢驥"@cht, "fenghanji"@en, "冯汉骥"@chs ;
+  foaf:gender "male";
+  foaf:birthday "1899";
+  schema:birthPlace "湖北宜昌";
+  schema:jobTitle "historian";
+  schema:jobTitle "ethnology";
+  schema:jobTitle "archaeologist";
+  selfDefine:works "岷江上游的石棺葬文化", "前蜀王建墓发掘报告", "中国亲属制", "古代社会" ;
+  schema:alumniOf <http://data.library.sh.cn/entity/organization/四川大学>;
+  schema:founder <http://SichuanUniversity.org/Instituteofhistory/>.
+
+<http://data.library.sh.cn/person/huowei>
+  a person:Person;
+  foaf:name "霍巍"@chs, "霍巍"@cht, "huo wei"@en ;
+  foaf:gender "male";
+  foaf:birthday "1957";
+  schema:birthPlace "河北";
+  schema:jobTitle "professor";
+  schema:jobTitle "中国藏学研究所所长";
+  schema:jobTitle "中国文明研究中心客座研究员";
+  schema:jobTitle "边疆考古研究中心客座研究员";
+  newstandards:createdWork "西藏西部佛教艺术", "西藏西部佛教文明", "古格王国—西藏中世纪王朝的挽歌" ;
+  schema:knowsAbout "藏族文化";
+  schema:knowsAbout "藏传佛教";
+  schema:knowsAbout "西藏考古研究";
+  schema:alumniOf <http://data.library.sh.cn/entity/organization/四川大学>.
+
+  <马永超>
+  a person:Person;
+  foaf:name "马永超"@cht;
+  foaf:gender "male";
+  schema:alumniOf <http://data.library.sh.cn/entity/organization/四川大学>;
+  schema:worksFor <http://SichuanUniversity.org/Instituteofhistory/>.
+
+  <http://data.library.sh.cn/entity/organization/四川省博物馆>
+  a foaf:Organization;
+  foaf:name "四川省博物馆" ;
+  schema:location "四川省 成都市 青羊區 浣花南路251號" .
+
+<https://ChinaInstituteofTibetology.org/>
+  a foaf:Orgnization ;
+  foaf:name "中国藏学研究所";
+  schema:location "四川省成都市望江路29号四川大学新博物馆大楼1楼110" .
+
+<http://SichuanUniversity.org/Instituteofhistory/>
+  a foaf:Orgnization ;
+  foaf:name "四川大學. 歷史研究所";
+  schema:location "四川省成都市武侯区".
+
+<https://Chinacivilizationresearchcenter.org/>
+  a foaf:Orgnization ;
+  foaf:name "中国文明研究中心";
+  schema:location "上海市邯郸路220号复旦大学光华楼西主楼八楼".
+
+<http://data.library.sh.cn/entity/organization/四川大学>
+  a foaf:Organization ;
+  foaf:name "四川大学";
+  schema:location "四川省成都市武侯区一环路南一段24号" .
+
+<http://data.library.sh.cn/entity/organization/四川大学/DepartmentofArchaeology>
+  schema:name "四川大学 考古学系".
+
+<http://www.metadata.cn/sanxingdui>
+  a foaf:Organization ;
+  foaf:name "三星堆";
+  schema:location "中国四川省广汉市城西三星堆镇的鸭子河畔" .
+
+<http://www.metadata.cn/SanxingduiMuseum>
+  a foaf:Organization;
+  schema:name "三星堆博物馆";
+  schema:location "四川省广汉市城西鸭子河畔".
+
+<http://www.metadata.cn/Bronzestandingfigure1/>
+  a selfDefine:relic;
+  foaf:name "青铜大立人像";
+  schema:sameAs <http://www.sxd.cn/showinfo.asp?id=458>;
+  cdwa:Measurements "180.0 cm (height) 180.0 kg (weight)";
+  dcterms:medium "copper alloy";
+  dcterms:description "像头戴高冠，身佩方格纹带饰。其双手手型环握中空,脚戴足镯";
+  cdwa:CurrentLocation "三星堆博物馆";
+  selfDefine:dateDateofexcavation "1986";
+  cdwa:CurrentLocation <http://www.SanxingduiMuseum.cn/>;
+  selfDefine:title "世界铜像之王".
+
+<http://www.metadata.cn/Bronzetree1/>
+  a selfDefine:relic;
+  foaf:name "Ⅰ号大型铜神树";
+  schema:sameAs <http://www.sxd.cn/showinfo.asp?id=459>;
+  selfDefine:digger "霍巍";
+  cdwa:Measurements "359.0 cm (parts) 396.0 cm (total)";
+  dcterms:medium "copper alloy";
+  dcterms:description "铜树底座呈穹窿形，其下为圆形座圈，底座由三面弧边三角状镂空虚块面构成，三面间以内擫势的三足相连属";
+  selfDefine:dateDateofexcavation "1986";
+  cdwa:CurrentLocation <http://www.SanxingduiMuseum.cn/>.
+
+<http://www.metadata.cn/Bronzemaskwithverticaleyes1/>
+  a selfDefine:relic;
+  foaf:name "铜纵目面具";
+  schema:sameAs <http://www.sxd.cn/showinfo.asp?id=461>;
+  cdwa:Measurements "138.0 cm (width) 66.0 cm (height)";
+  dcterms:medium "copper alloy";
+  dcterms:description "眼睛呈柱状向外凸。一双雕有纹饰的耳朵向两侧充分展开，造型雄奇，威严四仪";
+  cdwa:CurrentLocation "三星堆博物馆";
+  selfDefine:dateDateofexcavation "1986";
+  selfDefine:title "世界上年代最早、形体最大的青铜面具".
+
+<http://www.metadata.cn/Goldenstaff1/>
+  a selfDefine:relic;
+  foaf:name "金杖";
+  schema:sameAs <http://www.sxd.cn/showinfo.asp?id=98>;
+  cdwa:Measurements "142.0 cm (length) 2.3 cm (diameter) 500g(weight)";
+  dcterms:medium "gold";
+  selfDefine:dateDateofexcavation "1986";
+  cdwa:CurrentLocation <http://www.SanxingduiMuseum.cn/>;
+  selfDefine:title "已出土的中国同时期金器中体量最大的一件".
+
+<http://www.metadata.cn/Yuzhang1/>
+  a selfDefine:relic;
+  foaf:name "玉璋";
+  schema:sameAs <http://www.sxd.cn/showinfo.asp?id=482>;
+  cdwa:Measurements "54.4 cm (length)";
+  dcterms:medium "jade";
+  selfDefine:dateDateofexcavation "1986";
+  dcterms:description "呈刀形，两面满饰图案，据研究所刻画为原始宗教的祭祀场面";
+  cdwa:CurrentLocation: <http://www.SanxingduiMuseum.cn/>.
+
+
+<http://www.metadata.cn/GoldenMask/>
+  a selfDefine:relic;
+  foaf:name "黄金面具";
+  schema:sameAs <https://baike.baidu.com/item/%E9%BB%84%E9%87%91%E9%9D%A2%E5%85%B7/56383626>;
+  selfDefine:digger "马永超";
+  cdwa:Measurements "23.0 cm (width) 28.0 cm (height) 280g(weight)";
+  dcterms:medium "gold";
+  dcterms:description "黄金面具含金量约为 85%，含银量在 13%到 14%，还有其他杂质";
+  selfDefine:dateDateofexcavation "2020".
+
+selfDefine:weight
+    a rdf:Property ;
+    rdfs:comment "Weight of the resource."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "Weight"@en ;
+    rdfs:subPropertyOf <http://www.metadata.cn/selfDefine/weight>,selfDefine:weight.
+
+selfDefine:productionMethod
+    a rdf:Property ;
+    rdfs:comment "Production method of the resource."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "Production Method"@en ;
+    rdfs:subPropertyOf <http://www.metadata.cn/selfDefine/productionMethod>,selfDefine:productionMethod.
+
+selfDefine:diggher
+    a rdf:Property ;
+    rdfs:comment "Archaeological digger of the resource."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "diggher"@en ;
+    rdfs:subPropertyOf <http://www.metadata.cn/selfDefine/diggher>,selfDefine:diggher.
+
+selfDefine:dateDateofexcavation
+    a rdf:Property ;
+    rdfs:comment "The time when the cultural relics were excavated."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "dateDateofexcavation"@en ;
+    rdfs:subPropertyOf <http://www.metadata.cn/selfDefine/dateDateofexcavation>,selfDefine:dateDateofexcavation.
+
+selfDefine:title
+    a rdf:Property ;
+    rdfs:comment "The title or status of a cultural relic."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "title"@en ;
+    rdfs:subPropertyOf <http://www.metadata.cn/selfDefine/title>,selfDefine:title.
+
+selfDefine:works
+    a rdf:Property ;
+    rdfs:comment "The most generic kind of creative work of a person, including books, movies, photographs, software programs, etc."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "works"@en ;
+    rdfs:subPropertyOf <http://www.metadata.cn/selfDefine/works>,selfDefine:works.
+
+selfDefine:relic
+    a rdfs:Class ;
+    rdfs:comment "objects of historical, artistic and scientific value left by human beings in social activities."@en ;
+    rdfs:isDefinedBy <http://www.metadata.cn/selfDefine> ;
+    rdfs:label "relic"@en ;
+    rdfs:subClassOf rdfs:Resource .
+
+
